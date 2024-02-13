@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    max-height: 30px;
+    
+}
+
+.logo img {
+    max-width: 78px; /* Ajusta el tamaño del logotipo según tus necesidades */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+/* Estilos para pantallas pequeñas (responsive) */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+    }
+}
+
+.title{
+    margin-left: 200px;
+}
+.categoria{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:red;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.autor{
+    color:blue;
+    margin-left: 200px;
+}
+
+.hora{
+    margin-left: 200px;
+}
+
+.video-container{
+    max-width: 200px;
+    margin-left: 200px;
+}
+.video-description{
+    max-width: 700px;
+    margin-left: 200px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+.logo-container {
+    margin: 20px 0;
+}
+
+.logo-container img{
+    max-width:50px ;
+}
+
+.footer-links {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
